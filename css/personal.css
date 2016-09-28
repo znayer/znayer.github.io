@@ -5,13 +5,39 @@ by Zain Nayer
 
 body {
     padding-top: 70px; /* Required padding for .navbar-fixed-top. Change if height of navigation changes. */
+    background-color: #ECF0F1;
+}
+
+header {
+  text-align: center;
+  background: #3498DB;
+  color: #ECF0F1;
+}
+header .container {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+header img {
+  display: block;
+  margin: 0 auto 20px;
+}
+header .intro-text .name {
+  display: block;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 2em;
+}
+header .intro-text .skills {
+  font-size: 1.25em;
+  font-weight: 300;
 }
 
 .navbar-custom {
   background: #2C3E50;
   font-family: "Montserrat", "Helvetica", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
-  font-weight: 700;
+  font-weight: 600;
   border: none;
 }
 
