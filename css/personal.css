@@ -165,6 +165,7 @@ section.success {
   position: relative;
   text-align: center;
   cursor: default;
+  background: #2C3E50;
 }
 
 .hovereffect .overlay {
@@ -199,9 +200,10 @@ section.success {
 }
 
 .hovereffect:hover img {
-  filter: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg"><filter id="filter"><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="linear" slope="0.6" /><feFuncG type="linear" slope="0.6" /><feFuncB type="linear" slope="0.6" /></feComponentTransfer></filter></svg>#filter');
-  filter: brightness(0.6);
-  -webkit-filter: brightness(0.6);
+  opacity: 0.4;
+  filter: alpha(opacity=40);
+  -webkit-transform: translate3d(0,0,0);
+  transform: translate3d(0,0,0);
 }
 
 .hovereffect h2 {
@@ -221,7 +223,7 @@ section.success {
 }
 
 .hovereffect a {
-  color: #E74C3C;
+  color: #2980B9;
   padding: 1em 0;
   opacity: 0;
   filter: alpha(opacity=0);
