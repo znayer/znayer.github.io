@@ -6,6 +6,7 @@ by Zain Nayer
 body {
     padding-top: 70px; /* Required padding for .navbar-fixed-top. Change if height of navigation changes. */
     background-color: #ECF0F1;
+    overflow-x: hidden;
 }
 
 header {
@@ -166,6 +167,8 @@ section.success {
   text-align: center;
   cursor: default;
   background: #2C3E50;
+  margin: 0 0 15px;
+  right: 0;
 }
 
 .hovereffect .overlay {
