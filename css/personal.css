@@ -135,6 +135,7 @@ section {
 section h2 {
   margin: 0;
   font-size: 3em;
+  padding-bottom: 50px;
 }
 section.success {
   background: #18BC9C;
@@ -142,11 +143,18 @@ section.success {
 }
 @media (max-width: 767px) {
   section {
-    padding: 50px 0;
+    padding-top: 50px 0;
   }
   section.first {
     padding-top: 75px;
   }
+}
+
+.grid-item {
+  display: block;
+  position: relative;
+  max-width: 400px;
+  margin: 0 auto;
 }
 
 .hovereffect {
@@ -212,8 +220,8 @@ section.success {
   transform: translate3d(0,-100%,0);
 }
 
-.hovereffect a, hovereffect p {
-  color: #FFF;
+.hovereffect a {
+  color: #E74C3C;
   padding: 1em 0;
   opacity: 0;
   filter: alpha(opacity=0);
@@ -221,6 +229,17 @@ section.success {
   transition: opacity 0.35s, transform 0.35s;
   -webkit-transform: translate3d(0,100%,0);
   transform: translate3d(0,100%,0);
+}
+
+.hovereffect p {
+  color: #ECF0F1;
+  padding: 1em 0;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: translate3d(0,100%,0);
+  transform: translate3d(0,100%,0);;
 }
 
 .hovereffect:hover a, .hovereffect:hover p, .hovereffect:hover h2 {
