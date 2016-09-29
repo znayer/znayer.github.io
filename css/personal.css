@@ -138,8 +138,8 @@ section h2 {
   font-size: 3em;
   padding-bottom: 50px;
 }
-section.success {
-  background: #18BC9C;
+section.about {
+  background: #2980B9;
   color: white;
 }
 @media (max-width: 767px) {
