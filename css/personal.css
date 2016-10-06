@@ -240,6 +240,7 @@ section.about {
 
 .hovereffect p {
   color: #ECF0F1;
+  font-weight: 600;
   padding: 1em 0;
   opacity: 0;
   filter: alpha(opacity=0);
@@ -256,3 +257,7 @@ section.about {
   transform: translate3d(0,0,0);
 }
 
+footer .footer-above {
+  background-color: #2C3E50;
+  color: #ECF0F1;
+}
