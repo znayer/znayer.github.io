@@ -5,13 +5,13 @@ by Zain Nayer
 
 body {
     /* Required padding for .navbar-fixed-top. Change if height of navigation changes. */
-    background-color: #ECF0F1;
+    background-color: #F1F2D8;
     overflow-x: hidden;
 }
 
 header {
   text-align: center;
-  background: #3498DB;
+  background: #458C6B;
   color: #ECF0F1;
 }
 header .container {
@@ -147,7 +147,7 @@ section h2 {
   font-weight: 600;
 }
 section.about {
-  background: #2980B9;
+  background: #458C6B;
   color: white;
 }
 @media (max-width: 767px) {
