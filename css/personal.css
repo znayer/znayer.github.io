@@ -233,7 +233,7 @@ section.about {
 }
 
 .hovereffect a {
-  color: #2980B9;
+  color: #FFF;
   padding: 1em 0;
   opacity: 0;
   filter: alpha(opacity=0);
