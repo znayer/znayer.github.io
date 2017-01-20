@@ -4,7 +4,7 @@ by Zain Nayer
 */
 
 body {
-    padding-top: 70px; /* Required padding for .navbar-fixed-top. Change if height of navigation changes. */
+    /* Required padding for .navbar-fixed-top. Change if height of navigation changes. */
     background-color: #ECF0F1;
     overflow-x: hidden;
 }
@@ -45,6 +45,11 @@ header .intro-text .skills {
   header .intro-text .skills {
     font-size: 1.25em;
   }
+}
+
+.navbar {
+
+    margin-bottom: 0px;
 }
 
 .navbar-custom {
