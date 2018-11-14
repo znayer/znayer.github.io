@@ -1,0 +1,13 @@
+{
+  "level":[1,2,3,4,5,6,7,8,9,10],
+  "timeOut":[3,2.5,2,1,0.75,0.75,0.75,0.5,0.25,0.2],
+  "spriteMovement": [ 1, 5, 10, 15, 20, 25, 30, "specialMovement", "specialMovement", "specialMovement" ],
+  "specialMovement": {
+    "0": 5,
+    "30": 10,
+    "60": 15,
+    "90": 20,
+    "120": 25,
+    "150": 30
+  }
+}
