@@ -1,0 +1,37 @@
+[
+	{
+		"separation": 1,
+		"vergenceTimeOut": 10,
+		"gameTimeOut": 30000,
+		"percentConvergence": 3,
+		"pointsConvergence": 12,
+		"percentDivergence": 3,
+		"pointsDivergence": 12,
+		"percentJump": 3,
+		"pointsJump": 12,
+		"trackingSpeed": 2.75,
+		"trackingSpriteSize": 10,
+		"trackingTimeOut": 2.5,
+		"correctHits": 50,
+		"hitAccuracy": 70,
+		"reactionTime": 2.5
+	},
+	{
+		"separation": 2,
+		"vergenceTimeOut": 10,
+		"gameTimeOut": 30,
+		"percentConvergence": 6,
+		"pointsConvergence": 12,
+		"percentDivergence": 6,
+		"pointsDivergence": 12,
+		"percentJump": 6,
+		"pointsJump": 12,
+		"trackingSpeed": 3,
+		"trackingSpriteSize": 10,
+		"trackingTimeOut": 2.5,
+		"correctHits": 50,
+		"hitAccuracy": 70,
+		"reactionTime": 2.5
+	}
+
+]
