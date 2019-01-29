@@ -1,7 +1,7 @@
 [
 	{
 		"separation": 1,
-		"vergenceTimeOut": 10,
+		"vergenceTimeOut": 3,
 		"gameTimeOut": 30000,
 		"percentConvergence": 3,
 		"pointsConvergence": 12,
@@ -18,7 +18,7 @@
 	},
 	{
 		"separation": 2,
-		"vergenceTimeOut": 10,
+		"vergenceTimeOut": 3,
 		"gameTimeOut": 30,
 		"percentConvergence": 6,
 		"pointsConvergence": 12,
