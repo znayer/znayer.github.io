@@ -1,6 +1,6 @@
 [
 	{
-		"separation": 2,
+		"separation": 1,
 		"vergenceTimeOut": 3,
 		"gameTimeOut": 3000,
 		"percentConvergence": 3,
@@ -17,7 +17,7 @@
 		"reactionTime": 2.5
 	},
 	{
-		"separation": 2,
+		"separation": 1,
 		"vergenceTimeOut": 3,
 		"gameTimeOut": 30,
 		"percentConvergence": 6,
