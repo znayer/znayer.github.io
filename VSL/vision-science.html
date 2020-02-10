@@ -6,6 +6,47 @@
     <title>Unity WebGL Player | Vision Science</title>
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
+
+    <script src="https://www.gstatic.com/firebasejs/5.8.2/firebase.js"></script>
+    <script>
+      // Initialize Firebase
+      var config = {
+        apiKey: "AIzaSyC0cesGQvSb6N98cjp6YQ89SX0L0F0BEW4",
+        authDomain: "vision-sciencce-labs-2019.firebaseapp.com",
+        databaseURL: "https://vision-sciencce-labs-2019.firebaseio.com",
+        projectId: "vision-sciencce-labs-2019",
+        storageBucket: "vision-sciencce-labs-2019.appspot.com",
+        messagingSenderId: "105250990494"
+      };
+      firebase.initializeApp(config);
+    </script>
+
+  <script defer src="https://code.getmdl.io/1.1.3/material.min.js"></script>
+
+  <!-- Import and configure the Firebase SDK -->
+  <!-- These scripts are made available when the app is served or deployed on Firebase Hosting -->
+  <!-- If you do not serve/host your project using Firebase Hosting see https://firebase.google.com/docs/web/setup -->
+  <script src="/__/firebase/5.7.0/firebase-app.js"></script>
+  <script src="/__/firebase/5.7.0/firebase-auth.js"></script>
+  <script src="/__/firebase/init.js"></script>
+
+  <script type="text/javascript">
+  <script> 
+  function getEmail(){
+      firebase.auth().onAuthStateChanged((user) => {
+        if (user){
+          email = user.email;
+          document.getElementById('name').textContent = email;
+          reutrn email;
+        }
+      });
+    }
+
+    window.onload = function() {
+      getEmail();
+    };
+  </script>
+
     <script src="TemplateData/UnityProgress.js"></script>  
     <script src="Build/UnityLoader.js"></script>
     <script>
@@ -21,5 +62,7 @@
         <div class="title">Vision Science</div>
       </div>
     </div>
+
+    <div><pre id="name"> getEmail </pre></div>
   </body>
 </html>
